@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link
+      href="images/favicon-32x32.png"
+      rel="icon"
+      sizes="32x32"
+      type="image/png"
+    />
+    <link href="output.css" rel="stylesheet" />
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body
+    class="font-red-hat-display bg-pale-blue min-h-[100vh] p-4 flex flex-col gap-10 justify-center"
+  >
+    <img
+      alt="Background pattern"
+      class="absolute hidden lg:block w-full -z-20 top-0 left-0"
+      src="images/pattern-background-desktop.svg"
+    />
+    <img
+      alt="Background pattern"
+      class="absolute lg:hidden -z-20 w-full top-0 left-0"
+      src="images/pattern-background-mobile.svg"
+    />
+    <main>
+      <figure
+        class="max-w-sm shadow-xl mx-auto bg-white overflow-hidden rounded-2xl"
+      >
+        <img
+          alt="Listening to music illustration"
+          src="images/illustration-hero.svg"
+        />
+        <figcaption class="p-7 md:p-10 flex flex-col gap-4">
+          <h1 class="text-xl md:text-2xl font-bold text-center text-dark-blue">
+            Order Summary
+          </h1>
+          <p class="text-center text-desaturated-blue leading-6">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <div
+            class="bg-very-pale-blue rounded-2xl p-4 flex justify-between items-center"
+          >
+            <div class="flex gap-4 md:gap-5 items-center text-sm">
+              <img alt="Music icon" src="images/icon-music.svg" />
+              <div>
+                <p class="font-bold text-dark-blue">Annual Plan</p>
+                <p class="text-desaturated-blue">$59.99/year</p>
+              </div>
+            </div>
+            <a
+              class="text-bright-blue text-sm font-bold underline hover:no-underline transition-all duration-300 hover:opacity-80"
+              href="#"
+              >Change</a
+            >
+          </div>
+          <button
+            class="bg-bright-blue text-sm md:my-3 transition-all duration-300 hover:opacity-80 font-bold shadow-lg shadow-bright-blue/50 rounded-lg py-3 text-white"
+          >
+            Proceed to Payment
+          </button>
+          <a
+            class="font-bold text-center text-sm transition-all duration-300 hover:text-dark-blue text-desaturated-blue text-center"
+            href="#"
+            >Cancel Order</a
+          >
+        </figcaption>
+      </figure>
+    </main>
+    <footer>
+      <div class="text-center text-sm flex flex-col text-bright-blue">
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Challenge by Frontend Mentor.
+        </a>
+        <a
+          href="https://www.frontendmentor.io/profile/robertzinBOSS"
+          rel="noopener"
+          target="_blank"
+          >Coded by
+          <em class="cursor-pointer underline">Roberto Llontop</em>.</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
